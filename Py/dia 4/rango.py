@@ -32,3 +32,5 @@ print(mi_lista)
 print(f"Primer elemento: {mi_lista[0]}")
 print(f"Último elemento: {mi_lista[-1]}")
 print(f"Longitud total: {len(mi_lista)}")
+
+mi_lista = [n for n in range(2500,2586)]
