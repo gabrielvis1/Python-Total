@@ -20,3 +20,8 @@ print(f"Letras ordenadas: {letras}")
 numeros = [5, 4, 7, 1, 9]
 numeros.reverse() # Invierte el orden actual [cite: 313]
 print(f"Números invertidos: {numeros}")
+
+# imprimir indice de cada lugar en la lista
+for indice, lenguaje in enumerate(total_lenguajes):
+    print(f"{indice}: {lenguaje}")
+    
